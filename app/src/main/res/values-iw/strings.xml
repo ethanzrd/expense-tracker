@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ניהול תקציב אישי</string>
+    
+    <!-- General -->
+    <string name="title_budgeting_app">ניהול תקציב אישי</string>
+    <string name="hello_user">שלום, %1$s</string>
+    <string name="save">שמור</string>
+    <string name="cancel">ביטול</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="loading">טוען...</string>
+    <string name="error_loading_data">שגיאה בטעינת נתונים</string>
+    
+    <!-- Authentication -->
+    <string name="title_login">כניסה למערכת</string>
+    <string name="title_register">הרשמה למערכת</string>
+    <string name="email">אימייל</string>
+    <string name="password">סיסמה</string>
+    <string name="full_name">שם מלא</string>
+    <string name="login">התחברות</string>
+    <string name="register">הרשמה</string>
+    <string name="no_account">אין לך חשבון? הירשם עכשיו</string>
+    <string name="have_account">יש לך כבר חשבון? התחבר עכשיו</string>
+    <string name="error_login">שגיאת התחברות: %1$s</string>
+    <string name="error_register">שגיאת הרשמה: %1$s</string>
+    <string name="error_empty_email">אימייל נדרש</string>
+    <string name="error_empty_password">סיסמה נדרשת</string>
+    <string name="error_empty_name">שם מלא נדרש</string>
+    <string name="error_short_password">הסיסמה צריכה להיות לפחות 6 תווים</string>
+    <string name="unknown_account">חשבון לא מזוהה</string>
+    <string name="register_success">הרשמה הצליחה!</string>
+    
+    <!-- Main Dashboard -->
+    <string name="monthly_summary">סיכום חודשי: %1$s %2$s</string>
+    <string name="income_label">הכנסות:</string>
+    <string name="expense_label">הוצאות:</string>
+    <string name="balance_label">יתרה:</string>
+    <string name="recent_entries">רשומות אחרונות</string>
+    <string name="add_entry">הוסף רשומה חדשה</string>
+    
+    <!-- Entry Management -->
+    <string name="title_add_entry">הוספת רשומה חדשה</string>
+    <string name="income">הכנסה</string>
+    <string name="expense">הוצאה</string>
+    <string name="amount">סכום (₪)</string>
+    <string name="category">קטגוריה:</string>
+    <string name="date">תאריך</string>
+    <string name="notes">הערות (אופציונלי)</string>
+    <string name="error_amount_empty">נדרש להזין סכום</string>
+    <string name="error_date_empty">נדרש להזין תאריך</string>
+    <string name="error_category_empty">נדרש לבחור קטגוריה</string>
+    <string name="error_amount_invalid">הסכום אינו תקין</string>
+    <string name="error_amount_zero">הסכום חייב להיות גדול מאפס</string>
+    <string name="entry_saved">הרשומה נשמרה בהצלחה</string>
+    <string name="error_saving_entry">שגיאה בשמירת הרשומה</string>
+    <string name="entry_deleted">הרשומה נמחקה בהצלחה</string>
+    <string name="error_deleting_entry">שגיאה במחיקת הרשומה</string>
+    <string name="confirm_delete_entry">האם אתה בטוח שברצונך למחוק רשומה זו?</string>
+    <string name="delete_entry">מחיקת רשומה</string>
+    <string name="edit">עריכה</string>
+    <string name="delete">מחיקה</string>
+    <string name="choose_action">בחר פעולה</string>
+    <string name="edit_entry_next">עריכת רשומה תיושם בשלב הבא</string>
+    <string name="invalid_entry_id">מזהה רשומה לא תקין</string>
+    
+    <!-- Category Management -->
+    <string name="title_category_management">ניהול קטגוריות</string>
+    <string name="new_category">קטגוריה חדשה</string>
+    <string name="add">הוסף</string>
+    <string name="edit_category">עריכת קטגוריה</string>
+    <string name="delete_category">מחיקת קטגוריה</string>
+    <string name="confirm_delete_category">האם אתה בטוח שברצונך למחוק קטגוריה זו?</string>
+    <string name="error_category_name_empty">נא להזין שם קטגוריה</string>
+    <string name="error_category_exists">קטגוריה זו כבר קיימת</string>
+    <string name="category_added">קטגוריה נוספה בהצלחה</string>
+    <string name="error_adding_category">שגיאה בהוספת קטגוריה</string>
+    <string name="category_updated">קטגוריה עודכנה בהצלחה</string>
+    <string name="error_updating_category">שגיאה בעדכון הקטגוריה</string>
+    <string name="category_deleted">קטגוריה נמחקה בהצלחה</string>
+    <string name="error_deleting_category">שגיאה במחיקת הקטגוריה</string>
+    <string name="error_empty_category_name">שם הקטגוריה לא יכול להיות ריק</string>
+
+    <!-- Monthly Summary -->
+    <string name="title_monthly_summary">סיכום חודשי</string>
+    
+    <!-- Admin Section -->
+    <string name="title_admin">ניהול משתמשים</string>
+    <string name="admin_subtitle">רשימת משתמשים</string>
+    <string name="admin_screen">מסך ניהול</string>
+    <string name="admin_badge">מנהל</string>
+    <string name="no_admin_permission">אין לך הרשאות מנהל</string>
+    <string name="error_loading_users">שגיאה בטעינת משתמשים</string>
+    <string name="error_loading_user_details">שגיאה בטעינת פרטי משתמש</string>
+    <string name="admin_view_only">אין אפשרות לערוך כמנהל</string>
+    <string name="admin_delete_not_allowed">אין אפשרות למחוק כמנהל</string>
+    
+    <!-- User Details -->
+    <string name="title_user_details">פרטי משתמש</string>
+    <string name="tab_summary">סיכום</string>
+    <string name="tab_entries">רשומות</string>
+    <string name="tab_categories">קטגוריות</string>
+    
+    <!-- Menu Items -->
+    <string name="menu_categories">ניהול קטגוריות</string>
+    <string name="menu_monthly_summary">סיכום חודשי</string>
+    <string name="menu_logout">התנתק</string>
+</resources>

@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "435534748696",
+    "firebase_url": "https://miriforme-fcf20-default-rtdb.firebaseio.com",
+    "project_id": "miriforme-fcf20",
+    "storage_bucket": "miriforme-fcf20.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435534748696:android:5bd5762046c613377a376d",
+        "android_client_info": {
+          "package_name": "com.example.trackingexpenses"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNPlg8wGvvJVSbpg7jssrO580Awx6TkoA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
