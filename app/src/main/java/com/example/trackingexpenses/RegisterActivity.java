@@ -86,21 +86,31 @@ public class RegisterActivity extends AppCompatActivity {
         // Validate form
         if (TextUtils.isEmpty(name)) {
             nameEditText.setError("שם מלא נדרש");
+            nameEditText.requestFocus();
             return;
         }
 
         if (TextUtils.isEmpty(email)) {
             emailEditText.setError("אימייל נדרש");
+            emailEditText.requestFocus();
+            return;
+        }
+
+        if (!android.util.Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+            emailEditText.setError("כתובת אימייל לא תקינה");
+            emailEditText.requestFocus();
             return;
         }
 
         if (TextUtils.isEmpty(password)) {
             passwordEditText.setError("סיסמה נדרשת");
+            passwordEditText.requestFocus();
             return;
         }
 
         if (password.length() < 6) {
             passwordEditText.setError("הסיסמה צריכה להיות לפחות 6 תווים");
+            passwordEditText.requestFocus();
             return;
         }
 
